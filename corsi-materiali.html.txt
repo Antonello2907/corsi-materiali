@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corsi & Materiali Gratuiti – Piattaforma Etica</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      /* Sfondo: se hai caricato un’immagine rinominata sfondo.jpg
+         rimetti la riga url('sfondo.png'). Se non hai un’immagine,
+         lascia solo il colore. */
+      background: #f5f5f5 url('sfondo.jpg') no-repeat center/cover;
+      color: #111;
+    }
+    header {
+      background: #c8e08c;
+      text-align: center;
+      padding: 1rem;
+      font-size: 1.4rem;
+    }
+    header a {
+      text-decoration: none;
+      color: #111;
+      font-weight: bold;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: #d4d4f9;
+      padding: 1.5rem;
+      border-radius: 10px;
+      text-align: center;
+    }
+    h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
+    p.sottotitolo { font-size: 1.1rem; margin-bottom: 1.5rem; }
+    a.bottone {
+      display: inline-block;
+      background: #38a169;
+      color: #fff;
+      padding: 0.6rem 1.2rem;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+    .logo {
+      display: block;
+      margin: 2rem auto;
+      max-width: 220px;
+    }
+    footer {
+      background: #c8e08c;
+      text-align: center;
+      padding: 0.7rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+    footer a {
+      margin: 0 6px;
+      color: #111;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="index.html">Menù</a>
+</header>
+
+<main>
+  <h1>Corsi & Materiali Gratuiti</h1>
+  <p class="sottotitolo">"Condividere il sapere è un atto di generosità."</p>
+
+  <p>
+    Qui troverai corsi, guide e materiali formativi messi a disposizione gratuitamente.
+    L’obiettivo è diffondere conoscenza e stimolare la crescita personale e collettiva.
+    Imparare insieme significa rafforzare la nostra comunità etica.
+  </p>
+
+  <a class="bottone" href="https://www.canva.com/design/DAGxNb2zjvU/7pd7nqH6Ft9TZY2CFu_V5A/view?utm_content=DAGxNb2zjvU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h36c24cfc81">Corsi &amp; Materiali</a>
+
+  <!-- LOGO: sostituisci logo.png con il nome del tuo file immagine -->
+  <img src="immagine1.jpg" alt="Logo Piattaforma Etica" class="logo">
+</main>
+
+<footer>
+  © 2025 Piattaforma Etica |
+  <a href="#">Contatti</a> |
+  <a href="#">Privacy</a> |
+  <a href="#">Cookie</a> |
+  <a href="#">Termini</a>
+</footer>
+
+</body>
+</html>
